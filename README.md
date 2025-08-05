@@ -1,3 +1,3 @@
 #python
 
-my library of python projects
+my library of projects
