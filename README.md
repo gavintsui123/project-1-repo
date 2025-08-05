@@ -1,3 +1,3 @@
 #python
 
-my library of projects
+my portfolio of projects
