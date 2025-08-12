@@ -1,9 +1,17 @@
+# we want to create a program to identify odd and even
+
 def main():
-    name = input("What's your name?")
-    print(name)
+    x = int(input("What's your value for x"))
+    if is_even(x):
+        print("even")
+    else:
+        print("odd")
 
-def welcome(to = "player 1"):
-    print("welcome "+ to  )
+def is_even(y):
+    if y / 2 == 0:
+        return True
 
-welcome()
+    else:
+        return False
+
 main()
