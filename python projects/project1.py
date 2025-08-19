@@ -7,7 +7,7 @@ import math
 
 user_wins = 0
 computer_wins = 0
-options = ["Rock" , "Paper", "Scissors"]
+options = ["rock" , "paper", "scissors"]
 random_number = random.randint(0,2)
 
 
@@ -17,7 +17,6 @@ while True:
         break
     
     if user_input not in options:
-        user_input == options
         continue 
 
     computer_pick = options[random_number]
